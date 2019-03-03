@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>MyPilas</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- <link rel="stylesheet" href="css/normalize.css"/> Não é necessário utilizar o NORMALIZE, pois o grid do Bootstrap já tem. -->
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css"/>
+        <link rel="stylesheet" href="css/layout.css"/>
+        <link rel="stylesheet" href="css/components.css"/>
+        <link rel="stylesheet" href="css/base.css"/>
+    </head>
+    <body>
+        <header class="layout-header">
+          <div class="container">
+              <nav class="navigation navigation--signature">
+                  <a href="index.html"><img src="img/logo.png" width="100" height="35" alt="MyPilas"></a>
+              </nav>
+          </div>
+        </header>
+        
+        <main class="layout-signature">
+            <div class="container">
+                <form action="#" method="post">
+                    <h1 class="form-title"> Sua assinatura do MyPilas</h1>
+                    <div class="enter-group">
+                        <label for="razaosocial">Razão social:</label>
+                        <input id="razaosocial" name="razaosocial" type="text" class="field" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="enter-group">
+                                <label for="cnpj">CNPJ:</label>
+                                <input id="cnpj" name="cnpj" type="text" class="field" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="enter-group">
+                                <label for="date-of-birth">Data de fundação:</label>
+                                <input id="date-of-birth" name="date-of-birth" type="date" class="field" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="enter-group">
+                        <label for="responsible">Responsável:</label>
+                        <input id="responsible" name:="responsible" type="text" class="field" required>
+                    </div>
+                    <div class="enter-group">
+                        <label for="email">E-mail:</label>
+                        <input id="email" name="email" type="email" class="field" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="enter-group">
+                                <label for="state">Estado:</label>
+                                <select id="state" name="state" class="field">
+                                    <option>Selecione</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="CE">Ceará</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="enter-group">
+                                <label for="city">Cidade:</label>
+                                <select id="city" name="city" class="field">
+                                    <option>Selecione</option>
+                                    <option value="1">Recife</option>
+                                    <option value="2">Salvador</option>
+                                    <option value="3">João Pessoa</option>
+                                    <option value="4">Fortaleza</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="enter-group">
+                                <label for="password">Senha:</label>
+                                <input id="password" name="password" type="password" class="field" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="enter-group">
+                                <label for="confirm-password">Senha:</label>
+                                <input id="confirm-password" name="confirm-password" type="password" class="field" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="text-align: center; margin-top: 40px">
+                        <input type="submit" value="Assinar My Pilas" class="button button--signature--mypilas">
+                    </div>
+                </form>
+            </div>
+        </main>
+        
+        <footer class="layout-footer">
+            <div class="container">
+                <p class="footer__text">&copy; 2019. My Pilas - Todos os direitos reservados. </p>
+            </div>
+        </footer>
+    </body>

@@ -1,0 +1,12 @@
+.nome{
+	color: #f00;
+	font-size: 24px; 
+	font-family: "trebuchet ms", arial, sans-serif;
+	font-style: italic;
+	font-weight: normal; /* Peso da fonte: normal ou bold*/
+	text-decoration: underline ; /* "line-through" risca a fonte */
+	text-align: center;
+}
+.segmento{
+	font-family: palatino, serif;
+}

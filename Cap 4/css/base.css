@@ -1,0 +1,16 @@
+/* 1º posicionamento */
+/* 2º display e box model */
+/* 3º cores */
+/* 4º texto */
+/* 5º outros */
+
+html{
+    font-size: 62.5%; /* Definindo a fonte padrão do navegador para 10px. CONTA: 10/16 = 0.625... 0.625x100 = 62.5% */
+}
+
+body{
+    margin: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+}

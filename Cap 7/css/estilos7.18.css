@@ -1,0 +1,31 @@
+body{
+    font-size: 14px;
+    font-family: arial;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse; /* Tira o espaço entre as linhas. */
+}
+
+.table td, .table th{
+    padding: 10px 6px;
+    border: 1px solid #cccccc;
+}
+
+.table th{
+    background-color: #ececec;
+    
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* O código abaixo informa que todas as colunas PARES(EVEN) receberão os atributos determinados. */
+.table tr:nth-child(even){
+    background-color: #f7f7f7;
+}
+
+.table tr:hover{
+    background-color: #faffcc;
+}

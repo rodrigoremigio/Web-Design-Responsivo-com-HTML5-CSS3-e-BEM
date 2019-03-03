@@ -1,0 +1,75 @@
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+header{
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+}
+header img{
+    margin-top: 12px;
+}
+#planos{
+    padding: 80px 0;
+}
+#planos::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+article{
+    padding: 10px;
+    border: 1px solid #95a4a5;
+    /*width: 30%;
+    float: left;
+    margin-right: 5%;*/
+}
+/* Media Queries: O código abaixo significa que: A "@media" só irá ser aplicada quando a expressão que está nos parênteses for verdadeira. "Min-width" significa largura mínima. Então, a partir de 800px, as propriedades dentro das {} são aplicadas. Neste caso, os blocos irão ficar lado a lado. */
+/* @media (min-width: 800px){
+    article{
+        width: 30%;
+        float: left;
+        margin-right: 5%;
+    }
+} */
+article > h2{
+    background-color: #95a4a5;
+    color: #fff;
+    text-align: center;
+    line-height: 2.5;
+    margin: -10px;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 28px;
+}
+article > div{
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+article > ul{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+article > ul > li{
+    text-align: center;
+}
+article > footer{
+    text-align: center;
+}
+.button{
+    display: inline-block;
+    background-color: #127d00;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.button:hover, .button:focus{
+    background-color: limegreen;
+    border-radius: 10px;
+}

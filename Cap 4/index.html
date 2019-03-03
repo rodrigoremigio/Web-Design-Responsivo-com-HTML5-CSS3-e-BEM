@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>MyPilas</title>
+        <meta charset="utf-8"/>
+        <!-- O viewport torna o site responsivo. O código abaixo está informando que a LARGURA da página é igual a LARGURA DO DISPOSITIVO, com escala inicial igual a 1, ou seja, 100%. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- <link rel="stylesheet" href="css/normalize.css"/> Não é necessário utilizar o NORMALIZE, pois o grid do Bootstrap já tem. -->
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css"/>
+        <link rel="stylesheet" href="css/layout.css"/>
+        <link rel="stylesheet" href="css/components.css"/>
+        <link rel="stylesheet" href="css/base.css"/>
+    </head>
+    <body>
+        
+        <header class="layout-header layout-header--home">
+          <div class="container">
+              <nav>
+                  <img src="img/logo.png" width="100" height="35" alt="MyPilas">
+                  <div class="navbar__menu">
+                      <button class="switch-button js-switch-button"></button>
+                      <ul class="menu  js-menu">
+                          <li class="menu__item">
+                              <a href="#">Como funciona</a>
+                          </li>
+                          <li class="menu__item">
+                              <a href="#plans">Planos e preços</a>
+                          </li>
+                          <li class="menu__item">
+                              <a href="#">Contato</a>
+                          </li>
+                          <li class="menu__item menu__item--button ">
+                              <a href="#" class="button button--login">Login</a>
+                          </li>
+                      </ul>
+                  </div>
+              </nav>
+          </div>
+        </header>
+        
+        <section class="layout-banner">
+            <div class="container">
+                <div class="bannercontent">
+                    <h1 class="bannercontent__title">As finanças da sua empresa em ondem</h1>
+                    <p class="bannercontent__subtitle">Software de gestão simples e prático para pequenos negócios.</p>
+                    <div class="bannercontent__action">
+                        <a href="#plans" class="button button--bannercontent">Conheça os planos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="layout-quote">
+            <div class="container">
+                <div class="quote">
+                    <blockquote class="quote__text">
+                        Eu tinha perdido totalmente o controle da minha empresa.
+                        Depois que comecei a usar o MyPilas, me sinto muito mais organizado e confiante no futuro.
+                    </blockquote>
+                    <div class="quote__author">
+                        <img class="quote__author-img" src="img/joao-da-silva.jpg" width="180px" height="180px" alt="João da Silva"/>
+                        <p>João da Silva</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="plans" class="layout-plans">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-sm-4">
+                        <article class="component__plan">
+                            <h2 class="plan__header">Autônomo</h2>
+                            <div class="plan__price">R$59/mês</div>
+                            <ul class="plan__features">
+                                <li>Até <strong>2 usuários</strong></li>
+                                <li><strong>500MB</strong> de armazenamento</li>
+                                <li>Lançamentos ilimitados</li>
+                                <li>Acesso seguro</li>
+                            <li>Sem fidelidade</li>
+                            </ul>
+                            <footer class="plan__footer">
+                                <a href="signature.html" class="button button--signature">Assinar</a>
+                            </footer>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <article class="component__plan plan--most-popular">
+                            <h2 class="plan__header">Micro</h2>
+                            <div class="plan__price">R$89/mês</div>
+                            <ul class="plan__features">
+                                <li>Até <strong>6 usuários</strong></li>
+                                <li><strong>1GB</strong> de armazenamento</li>
+                                <li>Lançamentos ilimitados</li>
+                                <li>Acesso seguro</li>
+                                <li>Sem fidelidade</li>
+                            </ul>
+                            <footer class="plan__footer">
+                                <a href="signature.html" class="button button--signature">Assinar</a>
+                            </footer>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-4 last-plan">
+                        <article class="component__plan">
+                            <h2 class="plan__header">Pequena</h2>
+                            <div class="plan__price">R$99/mês</div>
+                            <ul class="plan__features">
+                                <li>Até <strong>10 usuários</strong></li>
+                                <li><strong>5GB</strong> de armazenamento</li>
+                                <li>Lançamentos ilimitados</li>
+                                <li>Acesso seguro</li>
+                                <li>Sem fidelidade</li>
+                            </ul>
+                            <footer class="plan__footer">
+                                <a href="signature.html" class="button button--signature">Assinar</a>
+                            </footer>
+                        </article>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <footer class="layout-footer">
+            <div class="container">
+                <p class="footer__text">&copy; 2019. My Pilas - Todos os direitos reservados.</p>
+            </div>
+        </footer>
+        <script src="javascript/app.js"></script>
+    </body>
+</html>

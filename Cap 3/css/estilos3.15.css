@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	/* Border-box é relativo da borda pra dentro. */
+	/* Content-box é relativo do conteúdo pra dentro (é o padrão) */
+}
+body{
+	font-size: 32px;
+	margin: 0px;
+}
+.frase1, .frase2, .referencia{
+	width: 700px;
+	text-align: justify;
+	background-color: yellow;
+}
+p{
+	margin: 10px;
+}
+.referencia{
+	background-color: blue;
+	height: 20px;
+}
+.frase1{
+	/* box-sizing: content-box;  Content-box é relativo do conteúdo pra dentro (é o padrão) */
+	border: 3px solid red;
+	padding: 20px;
+}
+.frase2{
+	/* box-sizing: border-box; Border-box é relativo da borda pra dentro. */
+	border: 20px solid green;
+	padding: 50px;
+}

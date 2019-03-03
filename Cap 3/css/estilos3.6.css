@@ -1,0 +1,6 @@
+/* SELETORES DESCENDENTES: Os elementos dentro de "strong que forem descendentes de "missao" sofrerão os estilos listados abaixo */
+.missao strong{
+	color: red;
+}
+article strong{
+	color: blue;

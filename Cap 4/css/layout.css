@@ -1,0 +1,68 @@
+/* 1º posicionamento */
+/* 2º display e box model */
+/* 3º cores */
+/* 4º texto */
+/* 5º outros */
+
+/*--------------------------*\
+            HEADER
+\*--------------------------*/
+
+.layout-header{
+    height: 60px;
+    line-height: 60px;
+    /*border-bottom: 1px solid #ccc;*/
+    
+    background-color: #ffffff;
+}
+
+/*----- MODIFIERS -----*/
+
+.layout-header--home{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100; /* Quanto maior o número, maior a prioridade para o elemento aparecer na frente do outro. */
+}
+
+/*--------------------------*\
+             PLAN
+\*--------------------------*/
+.layout-plans{
+    padding: 80px 0;
+    
+    font-family: gidole;
+}
+
+/*--------------------------*\
+        MAIN BANNER
+\*--------------------------*/
+.layout-banner{
+    margin-top: 60px; 
+    padding: 80px 0;
+    background-color: #7ab55c;  
+}
+
+/*--------------------------*\
+          TESTIMONY
+\*--------------------------*/
+.layout-quote{
+    padding: 80px 0;
+    background-color: #e7e7e7;
+}
+
+/*--------------------------*\
+           FOOTER
+\*--------------------------*/
+.layout-footer{
+    padding: 25px 0;
+    background-color: #484848;
+}
+
+/*--------------------------*\
+          SIGNATURE
+\*--------------------------*/
+.layout-signature{
+    padding: 40px 0;
+}

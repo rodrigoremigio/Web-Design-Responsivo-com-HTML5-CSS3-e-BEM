@@ -1,0 +1,25 @@
+.caixa1{
+	/* Cores por nome */
+	background-color: blue;
+	color: white;
+}
+.caixa2{
+	/* Cores em RGB */
+	background-color: rgb(255, 0, 0);
+	color: rgb(0, 0, 0);
+}
+.caixa3{
+	/* Cores em RGB */
+	background-color: rgb(255, 200, 0);
+	color: rgb(255, 255, 255);
+}
+.caixa4{
+	/* Cores em HEXADECIMAL*/
+	background-color: #a3f54d;
+	color: #c8020a;
+}
+.caixa5{
+	/* Cores em HEXADECIMAL*/
+	background-color: #df0; /* Abreviação de #ddff00 */
+	color: #000; /* Abreviação de #000000 */
+}

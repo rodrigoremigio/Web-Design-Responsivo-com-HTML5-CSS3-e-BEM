@@ -1,0 +1,10 @@
+/* O sinal de maior ">" seleciona SOMENTE os filhos diretos de "article" com a class "importante". */
+article > .importante{
+	color: red;
+}
+article > p > strong.importante{
+	color: orange;
+}
+article .importante > strong{
+	color: blue;
+}

@@ -1,0 +1,22 @@
+body{
+    font-size: 32px;
+}
+/*
+h1{
+    color: red;
+}
+*/
+/* Independente da ordem, um "id" vai ser mais específico que uma "class", e a "class" vai ser mais específica do que uma "tag". */
+#logo{ /* 100 */
+    color: orange;
+}
+.amarelo{ /* 010 */
+    color: yellow;
+}
+h1{ /* 001 */
+    color: blue;
+}
+/*
+ID > CLASS > TAG
+ 1     1      1
+*/
